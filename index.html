@@ -10,14 +10,14 @@
         <a-scene embedded arjs>
             <!-- create your content here. just a box for now -->
             <a-assets>
-                <img id="my-image" src="nao.png">
+              <!-- <img id="my-image" src="nao.png">-->  
                 <a-asset-items id="robot" src="assets/nao/scene.gltf"></a-asset-items>
             </a-assets>
 
             <a-entity  gltf-model="#robot"></a-entity>    
-
+<!--
             <a-image src="#my-image" position="0 0 -1" width="2.5" height="2.5"></a-image>
-                
+        -->   
             <a-marker-camera preset='hiro'></a-marker-camera>
             <!-- define a simple camera -->
             <a-entity camera></a-entity>
